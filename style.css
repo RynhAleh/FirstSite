@@ -21,10 +21,6 @@
     display: block;
 }
 
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
 .main {
     margin-left: 220px;
     padding: 0px 10px;
