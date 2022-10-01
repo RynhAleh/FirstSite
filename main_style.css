@@ -28,10 +28,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 body {
     background: url(images/horizon.jpg);
     background-attachment: fixed;
     background-size: 100%;
+}
+
+.sidenav .gray-font {
+    color: Silver
 }
 
