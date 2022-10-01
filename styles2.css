@@ -1,0 +1,17 @@
+h1 {
+  text-align: Right;
+}
+
+h2 {
+  text-align: Center;
+  width: 300px;
+}
+
+table { width: 500px; }
+th    { text-align: Left; }
+td    { text-align: Center; }
+
+p {
+  width: 300px;
+  text-align: justify;
+}
