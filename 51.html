@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Урок 50 </title>
+        <link rel="icon" href="images/favicon.png" type="image/png">
+    </head>
+    <body style="margin-left: 50px;">
+        <a href="index.html">На главную</a><br>
+        <h4><i>Урок 51. Форматирование текста. Часть 2.<span style="background: yellow">Домашнее задание:</span></i></h4>
+        <i> Сократите код, используя свойство-сокращение font:<br>
+        <span style="font: normal 13px Courier">
+            p {<br>
+            &nbsp&nbsp font-family: "Times New Roman";<br>
+            &nbsp&nbsp font-size: 13px;<br>
+            &nbsp&nbsp line-height: 20px;<br>
+            }<br>
+        </span>
+        Сократите код, используя свойство-сокращение font:<br>
+        <span style="font: normal 13px Courier">
+            p {<br>
+            &nbsp&nbsp width: 300px;<br>
+            &nbsp&nbsp font-family: Arial;<br>
+            &nbsp&nbsp color: red;<br>
+            &nbsp&nbsp font-size: 40px;<br>
+            &nbsp&nbsp font-weight: bold;<br>
+            }<br>
+        </span>
+        Сократите код, используя свойство-сокращение font:<br>
+        <span style="font: normal 13px Courier">
+            p {<br>
+            &nbsp&nbsp font-family: Arial;<br>
+            &nbsp&nbsp font-size: 40px;<br>
+            &nbsp&nbsp font-weight: bold;<br>
+            &nbsp&nbsp text-indent: 50px;<br>
+            &nbsp&nbsp font-style: italic;<br>
+            &nbsp&nbsp line-height: 60px;<br>
+            }<br>
+        </span></i>
+
+        <hr>
+        <h4>Решение:</h4>
+        <div style="border:1px solid; padding: 10px; wight: 30px; font: 13px Courier; background-color: LemonChiffon;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26), 0 4px 12px rgba(0, 0, 0, 0.31);">
+            p {<br>
+            &nbsp&nbsp font: 13px/20px "Times New Roman";<br>
+            }<br>
+            <br>
+            p {<br>
+            &nbsp&nbsp width: 300px;<br>
+            &nbsp&nbsp color: red;<br>
+            &nbsp&nbsp font: bold 40px Arial<br>
+            }<br>
+            <br>
+            p {<br>
+            &nbsp&nbsp text-indent: 50px;<br>
+            &nbsp&nbsp font: italic bold 40px/60px Arial<br>
+            }<br>
+        </div>
+        <br><br>
+        Решение исходило из того, что свойство-сокращение font может включать в себя следующие 6 свойств:<br>
+        <table width="100%" style="color: MediumBlue">
+            <tr>
+                <td>font-style</td>
+                <td>normal; italic; oblique; inherit; initial; unset</td>
+            </tr><tr>
+                <td>font-variant</td>
+                <td>small-caps; common-ligatures small-caps; inherit; initial; revert; revert-layer; unset</td>
+            </tr><tr>
+                <td>font-weight</td>
+                <td>normal; bold; lighter; bolder; 200; 900 и т.д.</td>
+            </tr><tr>
+                <td>font-size / line-height</td>
+                <td>10px/1.5; 30px/20px и т.д.</td>
+            </tr><tr>
+                <td>font-family</td>
+                <td>'Times New Roman','Arial'; serif; sans-serif;monospace;fantasy и т.д.</td>
+            </tr>
+        </table>
+        <br>
+        Порядок расположения на примере:<br>
+        <div style="color: MediumBlue">
+            body { font: italic small-caps bold 16px/1.5 Arial, sans-serif; }
+        </div>
+        <br>
+</body>
+</html>
