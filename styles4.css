@@ -1,11 +1,11 @@
-.elem1 {
+#elem1 {
   color: Red
 }
 
-.elem2 {
+#elem2 {
   color: Green
 }
 
-.elem3 {
-  color: Red
+#elem3 {
+  color: DeepSkyBlue
 }
