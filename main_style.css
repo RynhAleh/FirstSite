@@ -8,9 +8,13 @@
     background-color: #4682B4;
     color: White;
     overflow-x: hidden;
-    padding-top: 20px;
-	 padding: 10px 10px;
-
+	padding: 10px 0 0 10px;
+/*
+padding: [все стороны];
+padding: [сверху-снизу] [cлева-справа];
+padding: [сверху] [слева-справа] [снизу];
+padding: [сверху] [справа] [снизу] [слева];
+*/
 }
 
 .sidenav a {
