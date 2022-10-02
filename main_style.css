@@ -39,6 +39,10 @@ body {
 }
 
 .sidenav .gray-font {
+    text-decoration: none;
     color: Silver
 }
 
+.sidenav .usual-font {
+    text-decoration: none;
+}
