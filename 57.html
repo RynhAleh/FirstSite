@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Урок 57,58,59.</title>
+        <link rel="icon" href="images/favicon.png" type="image/png">
+        <link rel="stylesheet" href="styles6.css">
+    </head>
+    <body style="margin-left: 50px;">
+        <a href="index.html">На главную</a><br>
+        <h4><i>Урок 57. Блочная модель, Урок 58. Отступы в CSS, Урок 59. Свойство display. <span style="background: yellow">Домашнее задание:</span></i></h4>
+        <i> Пусть у вас в HTML коде есть несколько абзацев. Сделайте так, чтобы они вели себя как строчные элементы.<br>
+            Пусть у вас в HTML коде есть несколько ссылок. Сделайте так, чтобы они вели себя как блочные элементы. Задайте им границу, ширину и высоту.<br></i>
+        <hr>
+        <h4>Решение:</h4>
+        <u><i><b>Абзацы до применения стилей:</b></i></u><br>
+        <div>
+            <p>Однажды в студёную зимнюю пору</p>
+            <p>Я из лесу вышел, был сильный мороз,</p>
+            <p>Гляжу: поднимается медленно в гору</p>
+            <p>Лошадка, везущая хворосту воз.</p>
+        </div>
+        <br>
+        <u><i><b>Ссылки до применения стилей:</b></i></u><br>
+        <div>
+            <a href="https://www.google.com/">https://www.google.com/</a>&nbsp&nbsp
+            <a href="https://www.facebook.com/">https://www.facebook.com/</a>&nbsp&nbsp
+            <a href="https://twitter.com/">https://twitter.com/</a>&nbsp&nbsp
+        </div>
+        <br><br>
+
+        Содержание файла "styles6.css":<br>
+        <iframe src="styles6.css" width="280px" height="230px"></iframe><br>
+
+        <u><i><b>Абзацы после применения стилей:</b></i></u><br>
+        <div>
+            <p class="str">Однажды в студёную зимнюю пору</p>
+            <p class="str">Я из лесу вышел, был сильный мороз,</p>
+            <p class="str">Гляжу: поднимается медленно в гору</p>
+            <p class="str">Лошадка, везущая хворосту воз.</p>
+        </div>
+        <br><br>
+        <u><i><b>Ссылки после применения стилей:</b></i></u><br>
+        <div>
+            <a class="blc" href="https://www.google.com/">https://www.google.com/</a>&nbsp&nbsp
+            <a class="blc" href="https://www.facebook.com/">https://www.facebook.com/</a>&nbsp&nbsp
+            <a class="blc" href="https://twitter.com/">https://twitter.com/</a>&nbsp&nbsp
+        </div>
+        <br>
+    </body>
+</html>
