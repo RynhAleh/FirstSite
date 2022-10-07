@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Практика ч.1</title>
+        <link rel="icon" href="images/favicon.png" type="image/png">
+        <style>
+          #menu {
+            width: 100%;
+            height: 50px;
+            background-color: Grey;
+            font-family: Arial;
+            display: flex;
+          }
+          #white {
+            width: 200px;
+            background-color: Red;
+            height: 50px;
+          }
+          #navbar {
+            display: flex;
+            flex-grow: 1;
+            list-style-type: none;
+            background-color: Green;
+            height: 50px;
+          }
+          #navbar ul li{
+            display: none;
+          }
+
+          #desicion {
+            position: relative;
+            height: 500px;
+            background: linear-gradient(White, LightBlue);
+          }
+        </style>
+    </head>
+    <body style="margin-left: 50px;">
+        <a href="index.html">На главную</a><br>
+        <h4><span style="background: yellow">Практика ч.1:</span></h4>
+        <i> Выполни задание из файла<br></i>
+        <img src="images/homework.jpg">
+        <hr>
+        <h4>Решение:</h4>
+        <div id="desicion">
+            <div id="menu">
+                <div id="white">
+                    <span style="font-weight: 800; font-size: 20px; padding: 0px;">W&nbsp&nbsp</span>
+                    <span style="font-weight: 700; font-size: 20px; padding: 3px;">H&nbsp&nbsp</span>
+                    <span style="font-weight: 500; font-size: 20px; padding: 3px;">I&nbsp&nbsp</span>
+                    <span style="font-weight: 300; font-size: 20px; padding: 3px;">T&nbsp&nbsp</span>
+                    <span style="font-weight: 100; font-size: 20px; padding: 3px;">E&nbsp&nbsp</span>
+                </div>
+                <ul id="navbar">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">PROJECTS</a>
+                    <li><a href="#">TEAM</a>
+                    <li><a href="#">NEWS</a>
+                    <li><a href="#">CONTACTS</a>
+                    <ul>
+                        <li><a href="#">Address</a></li>
+                        <li><a href="#">Phone</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">PAGES</a>
+                </ul>
+            </div>
+            <p>Абзац с текстом был добавлен для демонстрации того, что при открытии подпунктов меню они будут скрывать часть контента, а не сдвигать его.</p>
+        </div>
+    </body>
+</html>
