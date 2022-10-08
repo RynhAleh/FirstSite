@@ -7,13 +7,14 @@
         <style>
 
           #menu {
-            width: 1240px;
+            display: flex;
+            width: 1540px;
             height: 30px;
             font-family: Arial;
-            display: flex;
           }
 
           #white {
+            display: flex;
             margin-top: 0px;
             padding-left: 25px;
             width: 205px;
@@ -27,11 +28,12 @@
           }
 
           #navbar {
-            margin-top: 0px;
             display: flex;
+            margin-top: 0px;
             list-style-type: None;
             font-weight: 700;
             height: 30px;
+            width: 700px;
             justify-content: flex-end;
             padding-right: 6px;
           }
@@ -42,6 +44,11 @@
 
           #navbar li:hover{
             background-color: LightBlue;
+          }
+          #search {
+            display: flex;
+            width: 180px;
+            height: 30px;
           }
           #desicion {
             height: 500px;
@@ -73,7 +80,7 @@
                 <li><a href="#">CONTACTS</a></li>
                 <li><a href="#">PAGES</a></li>
             </ul>
-            <img style="width: 180px; height: 30px;" src="images/search.png">
+            <img class="search" src="images/search.png">
         </div>
         <div id="desicion">
         </div>
